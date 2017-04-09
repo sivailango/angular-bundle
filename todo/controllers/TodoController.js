@@ -1,5 +1,6 @@
 (function() {
-'use strict';
+
+    'use strict';
 
     angular
         .module('myApp.todo')
@@ -10,7 +11,7 @@
     function TodoController() {
 
         var vm = this;
-        
+
         vm.todos = [
             { id : 1, todo: 'Leave apply'},
             { id : 2, todo: 'Timesheet'},

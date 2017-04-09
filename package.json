@@ -1,0 +1,21 @@
+{
+  "name": "angular-bundle",
+  "version": "1.0.0",
+  "description": "Angular Guide",
+  "main": "index.js",
+  "repository": "https://github.com/sivailango/angular-bundle.git",
+  "author": "Siva <sivailango.s@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "angular": "^1.6.4",
+    "angular-ui-router": "^0.4.2"
+  },
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-plugin-angular": "^2.2.1"
+  },
+  "scripts": {
+    "eslint": "eslint",
+    "lint": "eslint. "
+  }
+}

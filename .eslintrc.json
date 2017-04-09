@@ -1,0 +1,53 @@
+{
+    "env": {
+        "browser": true
+    },
+    "plugins": ["angular"],
+    "extends": "eslint:recommended",
+    "rules": {
+        "indent": [
+            "error",
+            4
+        ],
+        "linebreak-style": [
+            "error",
+            "unix"
+        ],
+        "quotes": [
+            "error",
+            "single"
+        ],
+        "semi": [
+            "error",
+            "always"
+        ],
+        "no-extra-semi": 2,
+        "no-empty": 2,
+        "no-alert": 2,
+        "no-empty-function": 2,
+        "no-else-return": 2,
+        "no-self-assign": 2,
+        "strict": 2,
+        "consistent-return": 2,
+        "angular/component_name": 0,
+        "angular/component-limit": 2,
+        "angular/controller-as-vm": 2,
+        "angular/controller-as-route": 2,
+        "angular/controller-name": [2, "/^[A-Z][a-zA-Z0-9]*Controller$/"],
+        "angular/di-unused": 2,
+        "angular/di-order": [2, true, "case_sensitive"],
+        "angular/empty-controller": 2,
+        "angular/file-name": 0,
+        "angular/function-type": [2, "named"],
+        "angular/json-functions": 2,
+        "angular/module-dependency-order": 0,
+        "angular/log": 2,
+        "angular/module-getter": 2,
+        "angular/module-name": [2, "myApp"],
+        "angular/no-http-callback": 2,
+        "angular/rest-service": [2, "$http"]
+    },
+    "globals": {
+        "angular": true
+    }
+}

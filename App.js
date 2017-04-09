@@ -5,5 +5,5 @@
         'ui.router',
         'myApp.todo'
     ]);
-    
+
 })();
